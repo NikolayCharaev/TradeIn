@@ -1,0 +1,33 @@
+.call{
+    background-color: var(--color-lightgrey);
+    &__inner { 
+        display: flex;
+        height: 4.0625rem;
+    }
+
+    &__box{
+        display: flex;
+        align-items: center;
+        transition: var(--transition);
+
+        &:not(:last-child) { 
+            margin-right: 1.4375rem;
+        }
+        svg{
+            margin-right: 0.625rem;
+        }
+        &:hover{ 
+            svg {
+                fill: red
+       
+            }
+        }
+
+    }
+    &__number { 
+        font-weight: 400;
+        line-height: 1.75rem;
+        letter-spacing: 2%;
+        font-family: var( --font-bebas);
+    }
+}
