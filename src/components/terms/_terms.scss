@@ -1,0 +1,45 @@
+.terms {
+  background-color: var(--color-white);
+  padding: 106px 0 73px;
+  &__inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+  }
+  &__top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 66px;
+  }
+
+  &__button {
+    padding: 25px 103px;
+    border: none;
+    color: var(--color-text);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-lightgrey);
+    font-size: 15px;
+    line-height: 24px;
+    transition: var(--transition);
+    cursor: pointer;
+    &:hover {
+      background-color: var(--color-blueviolet);
+      color: var(--color-white);
+    }
+    &:first-child {
+      border-radius: 7px 0 0 7px;
+    }
+    &:last-child {
+      border-radius: 0 7px 7px 0;
+    }
+
+  }
+}
+
+
+.active{
+    background-color: var(--color-blueviolet);
+    color: var(--color-white);
+  }

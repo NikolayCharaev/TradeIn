@@ -1,0 +1,35 @@
+.sentence {
+  &__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 99px 0 86px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  &__title {
+    font-size: 50px;
+    line-height: 72px;
+    font-weight: 700;
+    font-family: var(--font-bebas);
+    text-transform: uppercase;
+    text-align: left;
+    max-width: 700px;
+    margin-bottom: 15px;
+  }
+  span {
+    color: var(--color-blueviolet);
+  }
+
+  &__image {
+    img {
+      width: 752px;
+      height: 647px;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+  }
+}

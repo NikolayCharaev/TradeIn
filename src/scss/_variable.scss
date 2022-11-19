@@ -1,24 +1,21 @@
-
 // colors
-:root{
-    --color-bluevuolet: #553BF9;
-    --color-darkgrey: #434343;
-    --color-normalgrey: rgba(67,67,67, .4);
-    --color-lightgrey: #EAEAEA;
-    --color-white: #FFFFFF;
+:root {
+  --color-blueviolet: #553bf9;
+  --color-darkgrey: #434343;
+  --color-normalgrey: rgba(67, 67, 67, 0.4);
+  --color-lightgrey: #eaeaea;
+  --color-white: #ffffff;
 
-    --color-text: rgba(67, 67, 67, 1)
+  --color-text: rgba(67, 67, 67, 1);
 }
-
 
 //fonts
-:root{ 
-    --font-roboto: 'Roboto', sans-serif;
-    --font-bebas: 'Bebas Neue', cursive;
+:root {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-bebas: 'Bebas Neue', cursive;
 }
 
-
 //transitions
-:root{
-    --transition: .3s linear
+:root {
+  --transition: all 0.3s linear;
 }
