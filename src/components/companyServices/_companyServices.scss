@@ -1,0 +1,108 @@
+.services {
+  margin-bottom: 168px;
+  &__header {
+    text-align: center;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 72px;
+    color: var(--color-darkgrey);
+    margin-bottom: 35px;
+    span {
+      color: var(--color-blueviolet);
+    }
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--color-darkgrey);
+    margin-bottom: 80px;
+  }
+
+  &__form {
+    background-color: var(--color-white);
+    padding: 85px 70px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1000;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-image: url(../../images/companyServices/line.svg);
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: -100px;
+      left: 80px;
+      z-index: 100;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      background-image: url(../../images/companyServices/car.svg);
+      width: 1000px;
+      height: 557px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: 600px;
+      right: 0;
+      z-index: -100;
+    }
+  }
+  &__form-top {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: var(--color-darkgrey);
+    margin-bottom: 66px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1096px;
+  }
+  &__item {
+    max-width: 541px;
+  }
+  &__checkbox {
+    margin-bottom: 8px;
+    width: 50px;
+    height: 50px;
+    &:checked {
+      background: var(--color-blueviolet);
+    }
+  }
+  &__form-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--color-darkgrey);
+    margin-bottom: 11px;
+  }
+  &__form-description {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-darkgrey);
+  }
+  &__button {
+    color: var(--color-white);
+    padding: 25px 110px;
+    border-radius: 15px;
+    background-color: var(--color-blueviolet);
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    cursor: pointer;
+    position: absolute;
+    right: 72px;
+    bottom: 90px;
+  }
+}
