@@ -1,0 +1,12 @@
+.copyright{ 
+    padding-bottom: 22px;
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        color: rgba(67, 67, 67, 0.4);
+
+        a{
+            text-decoration: underline;
+        }
+    }
+}

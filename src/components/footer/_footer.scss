@@ -1,0 +1,11 @@
+.footer{
+    padding: 45px;
+    &__inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 45px;
+        border-bottom: 1px solid rgba(67, 67, 67, 0.4);
+    }
+
+}

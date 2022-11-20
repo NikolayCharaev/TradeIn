@@ -1,8 +1,5 @@
 import React from 'react';
-
-
-import line from '../../images/companyServices/line.svg'
-import car from '../../images/companyServices/car.svg'
+import { ButtonWhite } from '../button/Button';
 
 
 const CompanyServices = () => {
@@ -45,7 +42,7 @@ const CompanyServices = () => {
                       <p className="services__form-description">Слабо разбираетесь в устройстве автомобиля и способах его проверки или же просто нет на это времени? Мы подберем авто для вас</p>
                     </li>
                 </ul>
-                <button className='services__button'>Далее</button>
+                <ButtonWhite name='Далее' className='services__button'/>
             </form>
         </div>
       </div>

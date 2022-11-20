@@ -6,6 +6,9 @@ import Sentence from './components/sentence/Sentence';
 import Terms from './components/terms/Terms';
 import CompanyServices from './components/companyServices/CompanyServices';
 import Guarantees from './components/guarantees/Guarantees';
+import Feedback from './components/feedback/Feedback';
+import Footer from './components/footer/Footer';
+import Copyright from './components/copyright/Copyright';
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
         <Terms/>
         <CompanyServices/>
         <Guarantees/>
+        <Feedback/>
+        <Footer/>
+        <Copyright/>
       </>
   );
 }

@@ -91,16 +91,9 @@
     line-height: 24px;
     color: var(--color-darkgrey);
   }
-  &__button {
-    color: var(--color-white);
+  button {
+    color: var(--color-darkgrey);
     padding: 25px 110px;
-    border-radius: 15px;
-    background-color: var(--color-blueviolet);
-    border: none;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    cursor: pointer;
     position: absolute;
     right: 72px;
     bottom: 90px;

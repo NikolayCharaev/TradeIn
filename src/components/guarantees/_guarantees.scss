@@ -1,7 +1,8 @@
 .garantees {
   background-color: var(--color-white);
+
   &__inner {
-    padding: 64px 27px 214px;
+    padding: 64px 27px ;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;

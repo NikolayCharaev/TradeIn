@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../logo/Logo';
 import Nav from '../nav/Nav';
-import Button from '../button/Button';
+import {Button} from '../button/Button';
 
 const Header = () => {
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../button/Button'
+import {Button, ButtonWhite} from '../button/Button'
 
 import letter from '../../images/letter.png'
 
@@ -15,7 +15,7 @@ const Guarantees = () => {
                 <div className="garantees__left">
                     <h1 className="garantees__title">Гарантируем юридическую чистоту сделки</h1>
                     <p className="garantees__subtitle">Изучили закон от А до Я и проводим только безопасные и прозрачные сделки</p>
-                    <Button name='Скачать образец' borderColor='1px solid rgba(85, 59, 249, 1)' bgColor='#fff' color='#434343'/>
+                    <ButtonWhite name='Скачать образец'/>
                 </div>
             </div>
         </div>
