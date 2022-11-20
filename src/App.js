@@ -5,6 +5,7 @@ import Header from './components/header/Header';
 import Sentence from './components/sentence/Sentence';
 import Terms from './components/terms/Terms';
 import CompanyServices from './components/companyServices/CompanyServices';
+import Guarantees from './components/guarantees/Guarantees';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Sentence/>
         <Terms/>
         <CompanyServices/>
+        <Guarantees/>
       </>
   );
 }

@@ -13,7 +13,7 @@ const Header = () => {
             <Logo />
             <Nav />
           </div>
-          <Button name="Заказать звонок" text={'uppercase'} color={'red'}/>
+          <Button name="Заказать звонок" text={'uppercase'} />
         </div>
       </div>
     </header>
